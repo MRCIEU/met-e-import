@@ -65,6 +65,7 @@ Now run:
 
 ```
 module add languages/anaconda3/5.2.0-tflow-1.11
+module add libs/bcftools/1.12
 snakemake -prk \
 -j 400 \
 --cluster-config bc4-cluster.json \
